@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleepick Counselling business</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <!--Nav section-->
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="logo"><a href="#"><img class="logo_image" src="./images/logo.jpg" alt=""></a></li>
+            <li class="item"><a href="">Home</a></li>
+
+            <li class="item"><a href="#services">Our Services</a></li>
+            <li class="item"><a href="#about">About Us</a> </li>
+            <li class="item button"><a href="./login.html">Log In</a></li>
+            <li class="item button secondary"><a href="./signup.html">Sign Up</a></li>
+            <li class="toggle" onclick="hamburger()"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+
+    <div class="landing-page">
+        <video autoplay muted loop id="myVideo">
+            <source src="./images/sleep_bg.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="image-caption">Sleepick Counselling</div>
+    </div>
+
+    <!--Image and description-->
+    <div id="about">
+        <div class="flex">
+            <div class="description-image">
+                <img class="image-description" src="./images/sleep.jpg" alt="">
+            </div>
+            <div class="content">
+                <p>YOUR BODY & YOUR FITNESS REQUIREMENTS ARE UNIQUE.
+                    <br>
+                    YOUR PERSONAL TRAINING SHOULD REFLECT THAT!
+                </p>
+                <br>
+                <p class="bold-text">CERTIFIED PERSONAL TRAINERS </p>
+                <br>
+                <p>Sleepick was founded in 2015 by a team of licensed therapists who have a passion for helping people
+                    improve their sleep. We believe that better sleep leads to better overall health and well-being.<br>
+                    <b> IMPOSSIBLE </b> to <br> <b>I’M’POSSIBLE.</b>
+                </p>
+                <div class="container">
+                    <a href="./signup.html"> <button class="hollow-button"> Book a Free PT Session</button> </a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!--testimonails-->
+    <div id="services">
+        <div class="testimonials">
+            <div class="testimonials_container 1">
+                <img class="testimonials_images" src="./images/CBT1.png" alt="">
+                <p class="testimonials_text">CBT-I</p>
+            </div>
+
+            <div class="testimonials_container 2">
+                <img class="testimonials_images" src="./images/hygeine.png" alt="">
+                <p class="testimonials_text">Sleep Hygiene
+                </p>
+            </div>
+            <div class="testimonials_container 3">
+                <img class="testimonials_images" src="./images/technique.webp" alt="">
+                <p class="testimonials_text">Techniques</p>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <a href="./signup.html"> <button class="hollow-button testimonials_button">JOIN TODAY</button> </a>
+        </div>
+        </id>
+        <!--Footer-->
+
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#about">about us</a></li>
+                            <li><a href="#services">our services</a></li>
+                            <li><a href="#about">privacy policy</a></li>
+                            <li><a href="#services">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Join us </h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#"> No.of days</a></li>
+                            <li><a href="#">status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#www.twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a href="#www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="#www.linkden.com"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <p style="color: white; font-size: 1rem;">&copy; 2021 Sleepick</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+
+</body>
+
+</html>
